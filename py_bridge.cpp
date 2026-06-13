@@ -20,7 +20,7 @@ void py_bridge::init() {
   // 将项目目录加入 sys.path，使 import hello_py 能找到
   py::module_ sys = py::module_::import("sys");
   py::list path = sys.attr("path");
-  path.attr("insert")(0, "/home/jenny/tutorial/hello-python");
+  path.attr("insert")(0, PY_PROJECT_DIR);
 
   // 验证导入
   try {
