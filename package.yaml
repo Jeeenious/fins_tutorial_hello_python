@@ -1,0 +1,8 @@
+name: "fins_hello_python"
+version: "0.1.0"
+description: "Tutorial for FINS"
+maintainers:
+  - name: "Your Name"
+    email: "your.email@example.com"
+licenses:
+  - "MIT"
